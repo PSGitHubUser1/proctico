@@ -1,5 +1,5 @@
 name: Bug report
-description: Create a report to help us improve (search for duplicates first)
+description: Create a report to help us improve
 labels: bug
 body:
  - type: textarea
@@ -26,5 +26,5 @@ body:
     options:
      - label: "I have checked that my problem [is not already reported](https://github.com/PSGitHubUser1/FB-ExampleMod-Runner/issues)."
        required: true
-     - label: "I have checked that my problem is not already fixed"
+     - label: "I have checked that my problem is not already fixed."
        required: true
