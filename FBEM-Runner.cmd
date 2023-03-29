@@ -4,7 +4,7 @@ cd "%userprofile%\Desktop"
 curl -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip
 echo.
 
-set "idea64_exe="%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe"
+set "idea64_exe"="%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe"
 
 if exist "%idea64_exe%" (
 echo.
@@ -44,10 +44,7 @@ del "%userprofile%\Desktop\fabric-example-mod-1.19\.gitignore"
 echo.
 del "%userprofile%\Desktop\fabric-example-mod-1.19\README.md"
 echo.
-cd %ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin
-echo.
-idea64.exe
-echo.
+%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe 
 pause
 echo.
 
