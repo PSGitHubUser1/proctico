@@ -1,0 +1,20 @@
+name: Feature Request
+description: Create a report to help us improve
+labels: feature request
+body:
+ - type: textarea
+   attributes:
+    label: Feature description
+    description: Explain clearly
+    placeholder: |
+     Tell us here about the feature
+   validations:
+    required: true
+ - type: checkboxes
+   attributes:
+    label: Issue tracker rule checks (please read carefully)
+    options:
+     - label: "I have checked that this feature [is not already asked](https://github.com/PSGitHubUser1/FB-ExampleMod-Runner/issues)."
+       required: true
+     - label: "I have checked that this feature is not already implemented"
+       required: true
