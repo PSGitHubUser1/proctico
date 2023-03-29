@@ -1,6 +1,6 @@
 name: Feature Request
 description: Create a report to help us improve
-labels: feature request
+labels: enhancement
 body:
  - type: textarea
    attributes:
@@ -16,5 +16,5 @@ body:
     options:
      - label: "I have checked that this feature [is not already asked](https://github.com/PSGitHubUser1/FB-ExampleMod-Runner/issues)."
        required: true
-     - label: "I have checked that this feature is not already implemented"
+     - label: "I have checked that this feature is not already implemented."
        required: true
