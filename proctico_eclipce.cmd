@@ -1,4 +1,7 @@
 @echo off
+::
+:: This file is in Development, may cause some issues!
+::
 echo.
 cd "%userprofile%\Desktop"
 curl -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip || wget -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip
