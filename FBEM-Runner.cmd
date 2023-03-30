@@ -4,14 +4,13 @@ cd "%userprofile%\Desktop"
 curl -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip
 echo.
 
-set "idea64_exe"="%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe"
+set "idea64_exe="%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe"
 
 if exist "%idea64_exe%" (
 echo.
-echo    IntelliJ IDEA is already installed on this PC.
+echo    -----
 echo.
 ) else (
-echo    IntelliJ IDEA is not installed on this PC. Downloading (+Installing) it now!
 echo.
 start cmd /c "winget install JetBrains.IntelliJIDEA-Community"
 echo.
@@ -43,8 +42,40 @@ echo.
 del "%userprofile%\Desktop\fabric-example-mod-1.19\.gitignore"
 echo.
 del "%userprofile%\Desktop\fabric-example-mod-1.19\README.md"
-echo.
-%ProgramFiles%\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin\idea64.exe 
 pause
 echo.
+move "%userprofile%\Desktop\fabric-example-mod-1.19" "%USERPROFILE%\IdeaProjects"
+echo.
+echo.
+echo.
+echo     Your Project (fabric-example-mod-1.19) has been moved to '%USERPROFILE%\IdeaProjects'
+echo.
+echo.
+echo.
+echo.
+%USERPROFILE%\IdeaProjects
 
+echo.
+echo.
+echo.
+echo.
+echo.
+echo     idea64.exe will open after closing this window by pressing 'Press any key to Continue' in last.
+echo.
+echo.
+echo.
+echo.
+
+echo.
+pause
+echo.
+cd %ProgramFiles%
+echo.
+cd JetBrains
+echo.
+cd IntelliJ IDEA Community Edition 2023.1
+echo.
+cd bin
+echo.
+start idea64.exe   
+pause
