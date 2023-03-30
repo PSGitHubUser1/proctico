@@ -44,7 +44,10 @@ echo.
 del "%userprofile%\Desktop\fabric-example-mod-1.19\README.md"
 pause
 echo.
-move "%userprofile%\Desktop\fabric-example-mod-1.19" "%USERPROFILE%\IdeaProjects"
+cd "%USERPROFILE%"
+mkdir IdeaProjects
+cd "%USERPROFILE%\IdeaProjects"
+move "%userprofile%\Desktop\fabric-example-mod-1.19" "%USERPROFILE%\IdeaProjects\fabric-example-mod-1.19"
 echo.
 echo.
 echo.
@@ -53,7 +56,6 @@ echo.
 echo.
 echo.
 echo.
-%USERPROFILE%\IdeaProjects
 
 echo.
 echo.
