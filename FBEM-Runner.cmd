@@ -60,7 +60,7 @@ echo.
 echo.
 echo.
 echo.
-echo     idea64.exe will open after closing this window by pressing 'Press any key to Continue' in last.
+echo     idea64.exe will open after closing this window by pressing 'Press any key to Continue' at last.
 echo.
 echo.
 echo.
