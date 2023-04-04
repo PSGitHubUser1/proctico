@@ -2,7 +2,9 @@
 title Proctico for Idea
 ::
 :: This file is in Development, may cause some issues but its almost done!
+::
 :: This prompt is made to make work easy and Not exploiting the License of FabricMC.
+::
 echo.
 echo    ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
 echo    º                  Proctico for Idea                     º
