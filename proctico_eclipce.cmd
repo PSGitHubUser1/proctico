@@ -2,6 +2,8 @@
 ::
 :: This file is in Development, may cause some issues!
 ::
+:: This prompt is made to make work easy and Do not want exploit the License of FabricMC.
+::
 echo.
 cd "%userprofile%\Desktop"
 curl -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip || wget -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip
