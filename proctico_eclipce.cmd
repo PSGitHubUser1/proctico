@@ -1,4 +1,5 @@
 @echo off
+title Proctico for Eclipse
 ::
 :: This file is in Development, may cause some issues!
 ::
