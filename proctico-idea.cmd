@@ -1,10 +1,43 @@
 @echo off
+title Proctico for Idea
 ::
 :: This file is in Development, may cause some issues but its almost done!
-::
-:: This prompt is made to make work easy and Do not want to exploit the License of FabricMC.
-::
+:: This prompt is made to make work easy and Not exploiting the License of FabricMC.
 echo.
+echo    ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+echo    º                  Proctico for Idea                     º
+echo    ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
+echo    º      (*) MIT License                                   º
+echo    ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
+echo    º  - Not to be published after some modifications.       º 
+echo    º                                                        º
+echo    º  Follow me on YT: https://youtube.com/@infoyps         º
+echo    º  Follow me on GitHub: https://github.com/PSGitHubUser1 º
+echo    º  My Discord ID: PSPlaysMC#3778                         º
+echo    º  Drop a star to repo: https://bit.ly/infoyProctico     º
+echo    ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ[Proctico]ÍÍÍÍ¼
+echo.
+echo. 
+pause
+echo.
+echo.
+net session >nul 2>&1
+if %errorLevel% == 0 (
+echo.
+  echo  ºº Running as Administrator. ºº
+  echo.
+) else (
+echo.
+echo.
+  echo  ºº Please run this File as an Administrator. ºº
+  echo.
+  echo.
+  pause
+  exit
+)
+echo.
+echo.
+
 cd "%userprofile%\Desktop"
 curl -LJO https://github.com/FabricMC/fabric-example-mod/archive/refs/heads/1.19.zip
 echo.
